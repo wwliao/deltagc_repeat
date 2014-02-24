@@ -150,7 +150,6 @@ def boxplot(real, rand):
     ax.set_ylabel('Difference of GC Ratio', size='x-large', weight='bold')
     ax.axhline(linestyle='--', linewidth=1, color='k', zorder=-1)
     plt.savefig('deltagc_boxplot.png', dpi=300)
-    plt.savefig('deltagc_boxplot.eps')
     plt.close(fig)
 
 if __name__ == '__main__':
