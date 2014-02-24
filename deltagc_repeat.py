@@ -28,9 +28,9 @@ def get_parser():
     Create a parser and add arguments
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument('sirna')
-    parser.add_argument('repeat')
-    parser.add_argument('ref')
+    parser.add_argument('sirna', help="position of siRNA accumulation")
+    parser.add_argument('repeat', help='position of tandem repeats')
+    parser.add_argument('ref', help='reference genome sequences')
     return parser
 
 def deltagc(sirna, trepeat, ref, rand):

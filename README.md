@@ -19,7 +19,7 @@ deltaGC = GC<sub>siRNA</sub>% - GC<sub>non</sub>%
 We compared the deltaGCs in repeats with the randomized genomic sequences, in 
 which the genomic sequences of tandem repeats are shuffled.
 
-## How to use
+## How to use it
 Please see the command-line help:
 
     $ python deltagc_repeat.py -h
