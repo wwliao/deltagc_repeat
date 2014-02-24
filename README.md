@@ -47,7 +47,7 @@ The source code is currently hosted on GitHub at:
 https://github.com/wwliao/deltagc_repeat
 
 ## Dependencies
-**deltagc_repeat** needs Python 2.7 and the packages listed below:
+It needs Python 2.7 and the packages listed below:
 - [Biopython](www.biopython.org/): for parsing FASTA files
 - [SciPy](http://www.scipy.org): for calculating the T-test scores
 - [Matplotlib](http://matplotlib.sourceforge.net/): for plotting
