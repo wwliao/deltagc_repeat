@@ -27,7 +27,7 @@ Please see the command-line help:
     python deltagc_repeat.py demo/siRNA_hits_chr1.txt demo/tandem_repeats_with_siRNA_chr1.txt demo/TAIR10_chr1.fa
 
 The output box plot:
-![](https://github.com/wwliao/deltagc_repeat/blob/master/demo/deltagc_boxplot.png)
+![](https://raw2.github.com/wwliao/deltagc_repeat/master/demo/deltagc_boxplot.png)
 
 ## Where to get it
 The source code is currently hosted on GitHub at: 
