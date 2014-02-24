@@ -19,8 +19,15 @@ deltaGC = GC<sub>siRNA</sub>% - GC<sub>non</sub>%
 We compared the deltaGCs in repeats with the randomized genomic sequences, in 
 which the genomic sequences of tandem repeats are shuffled.
 
+## How to use
+Please see the command-line help:
+    python deltagc_repeat.py -h
+
 ## Demo time
     python deltagc_repeat.py demo/siRNA_hits_chr1.txt demo/tandem_repeats_with_siRNA_chr1.txt demo/TAIR10_chr1.fa
+
+The output box plot:
+![](https://github.com/wwliao/deltagc_repeat/blob/master/demo/deltagc_boxplot.png)
 
 ## Where to get it
 The source code is currently hosted on GitHub at: 
