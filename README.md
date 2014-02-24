@@ -22,11 +22,22 @@ which the genomic sequences of tandem repeats are shuffled.
 ## How to use
 Please see the command-line help:
 
-    python deltagc_repeat.py -h
+    $ python deltagc_repeat.py -h
+    usage: deltagc_repeat.py [-h] sirna repeat ref
+
+    positional arguments:
+      sirna
+      repeat
+      ref
+
+    optional arguments:
+      -h, --help  show this help message and exit
 
 ## Demo time
 
-    python deltagc_repeat.py demo/siRNA_hits_chr1.txt demo/tandem_repeats_with_siRNA_chr1.txt demo/TAIR10_chr1.fa
+    $ python deltagc_repeat.py demo/siRNA_hits_chr1.txt demo/tandem_repeats_with_siRNA_chr1.txt demo/TAIR10_chr1.fa
+    t-statistic: 8.47154659745
+        p-value: 2.85883146488e-14
 
 The output box plot:
 ![](https://raw2.github.com/wwliao/deltagc_repeat/master/demo/deltagc_boxplot.png)
