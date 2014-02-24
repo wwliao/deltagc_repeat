@@ -1,15 +1,5 @@
 #!/usr/bin/env python
 
-###############################################################################
-#
-# deltagc_repeat - calculate and plot the difference of GC ratio between the
-#                  siRNA-accumulated regions and the non-siRNA-accumulated
-#                  regions, and compare with the randomized tandem repeats
-#
-# written by Wen-Wei Liao (wwliao@gate.sinica.edu.tw)
-#
-###############################################################################
-
 from __future__ import division
 import argparse
 import cPickle as pickle
@@ -21,7 +11,7 @@ from scipy.stats import ttest_ind
 
 def overlap(a, b):
     """
-    Compute the number of overlapping bases between two regions
+    Compute the number of overlapping base pairs between two regions
     """
     return max(0, min(a[1], b[1]) - max(a[0], b[0]))
 
@@ -34,6 +24,9 @@ def gc_ratio(seq):
     return gc_count / (at_count + gc_count)
 
 def get_parser():
+    """
+    Create a parser and add arguments
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument('sirna')
     parser.add_argument('repeat')
@@ -41,6 +34,10 @@ def get_parser():
     return parser
 
 def deltagc(sirna, trepeat, ref, rand):
+    """
+    Calculate the difference of GC ratio between the siRNA-accumulated regions 
+    and non-siRNA-accumulated regions in each tandem repeats
+    """
     rna_regions = defaultdict(list)
     with open(sirna) as infile:
         for i, line in enumerate(infile):
@@ -110,6 +107,10 @@ def deltagc(sirna, trepeat, ref, rand):
     return deltagc
 
 def boxplot(real, rand):
+    """
+    Plot the box plot of the differnce of GC ratio between repeats and 
+    randomized repeats
+    """
     colors = {'green': (143/255, 188/255,  87/255),
                'blue': (112/255, 193/255, 222/255),
                 'red': (226/255, 121/255,  76/255),
