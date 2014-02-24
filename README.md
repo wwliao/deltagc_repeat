@@ -1,9 +1,9 @@
 # deltagc_repeat
 
 ## What is it
-**deltagc_repeat** is a Python script calculating the difference of GC ratio 
-between the siRNA-accumulated regions and the non-siRNA-accumulated regions 
-in each tandem repeats, and then comparing with the randomized tandem repeats.
+**deltagc_repeat** is a Python script calculating and comparing the difference 
+of GC ratio between the siRNA-accumulated regions and the non-siRNA-accumulated
+ regions in each tandem repeats and randomized tandem repeats.
 
 ## Where to get it
 The source code is currently hosted on GitHub at: 
