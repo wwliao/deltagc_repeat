@@ -11,10 +11,10 @@ percentage (GC%) based on the genomic sequence is defined as:
 GC% = (G + C) / (A + T + C + G) * 100%
 
 For each repeat, we calculated the difference of GC ratio between the 
-siRNA-accumulated regions (GC~siRNA~%) and the non-siRNA-accumulated regions 
-(GC~non~%), as 
+siRNA-accumulated regions (GC<sub>siRNA</sub>%) and the non-siRNA-accumulated regions 
+(GC<sub>non</sub>%), as 
 
-deltaGC = GC~siRNA~% - GC~non~% 
+deltaGC = GC<sub>siRNA<sub>% - GC<sub>non<sub>% 
 
 We compared the deltaGCs in repeats with the randomized genomic sequences, in 
 which the genomic sequences of tandem repeats are shuffled.
