@@ -14,7 +14,7 @@ For each repeat, we calculated the difference of GC ratio between the
 siRNA-accumulated regions (GC<sub>siRNA</sub>%) and the non-siRNA-accumulated regions 
 (GC<sub>non</sub>%), as 
 
-deltaGC = GC<sub>siRNA<sub>% - GC<sub>non<sub>% 
+deltaGC = GC<sub>siRNA</sub>% - GC<sub>non</sub>% 
 
 We compared the deltaGCs in repeats with the randomized genomic sequences, in 
 which the genomic sequences of tandem repeats are shuffled.
