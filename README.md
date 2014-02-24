@@ -26,10 +26,10 @@ Please see the command-line help:
     usage: deltagc_repeat.py [-h] sirna repeat ref
 
     positional arguments:
-      sirna
-      repeat
-      ref
-
+      sirna       position of siRNA accumulation
+      repeat      position of tandem repeats
+      ref         reference genome sequences
+    
     optional arguments:
       -h, --help  show this help message and exit
 
