@@ -19,6 +19,12 @@ deltaGC = GC<sub>siRNA</sub>% - GC<sub>non</sub>%
 We compared the deltaGCs in repeats with the randomized genomic sequences, in 
 which the genomic sequences of tandem repeats are shuffled.
 
+## Dependencies
+It needs Python 2.7 and the packages listed below:
+- [Biopython](http://www.biopython.org/): for parsing FASTA files
+- [SciPy](http://www.scipy.org/): for calculating the T-test scores
+- [Matplotlib](http://matplotlib.org/): for plotting
+
 ## How to use it
 Please see the command-line help:
 
@@ -45,13 +51,6 @@ The output box plot:
 ## Where to get it
 The source code is currently hosted on GitHub at: 
 https://github.com/wwliao/deltagc_repeat
-
-## Dependencies
-It needs Python 2.7 and the packages listed below:
-- [Biopython](http://www.biopython.org/): for parsing FASTA files
-- [SciPy](http://www.scipy.org/): for calculating the T-test scores
-- [Matplotlib](http://matplotlib.org/): for plotting
-
 
 ## License
 MIT License
