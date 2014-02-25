@@ -36,11 +36,11 @@ Please see the command-line help:
 ## Demo time
 
     $ python deltagc_repeat.py demo/siRNA_hits_chr1.txt demo/tandem_repeats_with_siRNA_chr1.txt demo/TAIR10_chr1.fa
-    t-statistic: 8.47154659745
-        p-value: 2.85883146488e-14
+    t-statistic: 8.28813738021
+        p-value: 9.95369874338e-14
 
 The output box plot:
-![](https://raw2.github.com/wwliao/deltagc_repeat/master/demo/deltagc_boxplot.png)
+![](https://raw.github.com/wwliao/deltagc_repeat/master/demo/deltagc_boxplot.png)
 
 ## Where to get it
 The source code is currently hosted on GitHub at: 
