@@ -2,7 +2,6 @@
 
 from __future__ import division
 import argparse
-import cPickle as pickle
 from random import shuffle
 from collections import defaultdict
 from Bio import SeqIO
