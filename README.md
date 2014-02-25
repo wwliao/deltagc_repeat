@@ -49,8 +49,8 @@ https://github.com/wwliao/deltagc_repeat
 ## Dependencies
 It needs Python 2.7 and the packages listed below:
 - [Biopython](www.biopython.org/): for parsing FASTA files
-- [SciPy](http://www.scipy.org): for calculating the T-test scores
-- [Matplotlib](http://matplotlib.sourceforge.net/): for plotting
+- [SciPy](http://www.scipy.org/): for calculating the T-test scores
+- [Matplotlib](http://matplotlib.org/): for plotting
 
 
 ## License
