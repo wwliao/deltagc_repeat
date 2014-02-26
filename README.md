@@ -3,6 +3,12 @@
 of GC ratio between the siRNA-accumulated regions and the non-siRNA-accumulated
  regions in each tandem repeats and randomized tandem repeats.
 
+## Dependencies
+It needs Python 2.7 and the packages listed below:
+- [Biopython](http://www.biopython.org/): for parsing FASTA files
+- [SciPy](http://www.scipy.org/): for calculating the T-test scores
+- [Matplotlib](http://matplotlib.org/): for plotting
+
 ## How it works
 Within tandem repeats, the sequences are further classified into two regions, 
 with or without siRNA accumulation, for the GC-content analysis. The GC-content
@@ -18,12 +24,6 @@ deltaGC = GC<sub>siRNA</sub>% - GC<sub>non</sub>%
 
 We compared the deltaGCs in repeats with the randomized genomic sequences, in 
 which the genomic sequences of tandem repeats are shuffled.
-
-## Dependencies
-It needs Python 2.7 and the packages listed below:
-- [Biopython](http://www.biopython.org/): for parsing FASTA files
-- [SciPy](http://www.scipy.org/): for calculating the T-test scores
-- [Matplotlib](http://matplotlib.org/): for plotting
 
 ## How to use it
 Please see the command-line help:
