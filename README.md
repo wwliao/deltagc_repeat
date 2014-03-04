@@ -1,6 +1,6 @@
 # deltagc_repeat
 **deltagc_repeat** is a Python script calculating and comparing the difference 
-of GC ratio between the siRNA-accumulated regions and the non-siRNA-accumulated
+of GC ratio between the siRNA-accumulating regions and the non-siRNA-accumulating
  regions in each tandem repeats and randomized tandem repeats.
 
 ## Dependencies
@@ -17,7 +17,7 @@ percentage (GC%) based on the genomic sequence is defined as:
 GC% = (G + C) / (A + T + C + G) * 100%
 
 For each repeat, we calculated the difference of GC ratio between the 
-siRNA-accumulated regions (GC<sub>siRNA</sub>%) and the non-siRNA-accumulated regions 
+siRNA-accumulating regions (GC<sub>siRNA</sub>%) and the non-siRNA-accumulating regions 
 (GC<sub>non</sub>%), as 
 
 deltaGC = GC<sub>siRNA</sub>% - GC<sub>non</sub>% 
